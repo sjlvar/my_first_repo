@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>천안 신성정육점 소고기 판매</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&display=swap" rel="stylesheet">
+    <script>
+        function hey() {
+            alert("주문이 완료되었습니다!")
+        }
+    </script>
+    <style>
+        .my-picture {
+            background-position: center;
+            background-size: cover;
+            font-family: 'Gothic A1', sans-serif;
+        }
+
+        .form-group {
+            width: 500px;
+            padding:
+                font-family: 'Gothic A1', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!--상품 설명-->
+    <div class="my-picture">
+        <img class="card-img-top"
+            src="https://img.29cm.co.kr/next-edition/2018/04/09/d78e06013c774e458a96e0e9f470a516_20180409142515.jpg"
+            alt="Card image cap">
+        <div class="card-body">
+            <h1 class="card-title">오늘도 고생한 나에게 주는 선물, 소고기</h1>
+            <h5> 가격 : 100,000원/1세트, 1인당 최대 10세트 구매 가능 </h5>
+            <p class="card-text">믿고 사는 천안 전통 중앙시장의 신성정육점에서 판매하는 특A++한우 세트. 오늘도 고생한 나에게 셀프 한우 선물은 어떠세요?</p>
+        </div>
+    </div>
+    <br></br>
+    <!--주문하기 form-group-->
+    <div class="form-group">
+        <h1>주문하기</h1>
+        <label for="exampleFormControlTextarea1">주문자 성함:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+    </div>
+    <br></br>
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">수량:</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select>
+    </div>
+    <br></br>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">주소:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+    </div>
+    <br></br>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">전화번호:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+    </div>
+    <br>
+    
+    <button onclick="hey()" type="submit" class="btn btn-secondary btn-lg">주문하기</button>
+
+    </form>
+</body>
+
+</html>
